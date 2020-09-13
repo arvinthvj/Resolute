@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@700&display=swap");
+
+.home {
+  opacity: 1;
+  height: 100vh;
+  width: 100% !important;
+  max-width: 100% !important;
+  place-items: center;
+
+  margin-top: -2%;
+
+  display: flex;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(1, 1, 4, 1) 0%,
+    rgba(37, 73, 80, 1) 53%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.home__con1 {
+  display: flex;
+  border-radius: 50px;
+}
+.one {
+  color: red;
+  font-size: 47px;
+  line-height: normal;
+}
+.two {
+  font-size: 40px;
+}
+
+.home__con1 > h1 {
+  font-weight: 1000;
+
+  padding-bottom: 10%;
+  color: cornsilk;
+  font-family: "Noto Sans HK", sans-serif !important;
+}
+.home__con2 {
+  display: flex;
+}
+
+.home__con2 > img {
+  max-width: 100%;
+  flex: 1;
+
+  display: flex;
+  border-radius: 50px;
+  background: #131516;
+
+  box-shadow: 20px 20px 60px #0a0b0b, -20px -20px 60px #1d2021;
+}
+.home {
+  width: 100%;
+}
